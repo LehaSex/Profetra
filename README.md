@@ -25,10 +25,10 @@ git clone https://github.com/LehaSex/Profetra.git
 ```
 2. Change parameters in the file /Scripts/GameConnection.cs
 ```csharp
-		[SerializeField] private string _protocol = "http";
-		[SerializeField] private string _ipAddress = "192.168.1.10";
-		[SerializeField] private int _port = 7350;
-		[SerializeField] private string _serverKey = "defaultkey";
+[SerializeField] private string _protocol = "http";
+[SerializeField] private string _ipAddress = "192.168.1.10";
+[SerializeField] private int _port = 7350;
+[SerializeField] private string _serverKey = "defaultkey";
 ```
 3. Run game
 
